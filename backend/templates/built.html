@@ -1,0 +1,25 @@
+{%block content%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Lookup</title>
+</head>
+<body>
+    <h1>This is osint website</h1>
+    <form action="../builtwith/" method="post">
+        {%csrf_token%}
+        <input type="text" name="website" placeholder="Enter the site name to search" width="auto">
+        <input type="submit" value="Search">
+    </form>
+
+    {%if data%}
+    {% for k in data%}
+    {{k}}<br>
+    {%endfor%}
+    {%endif%}
+</body>
+
+{%endblock%}
