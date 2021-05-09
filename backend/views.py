@@ -50,7 +50,7 @@ def IP_Lookup(request):
                #"/root/Music/OSINT/osint4/osint_tools_security_auditing/checkIpDetails.py",
                #"--domain",
                "py",
-               "C:\\Users\\Mridul\\Desktop\\OSINT\\osint4\\osint_tools_security_auditing\\checkIpDetails.py",
+               "C:\\Users\\Mridul\\Desktop\\OSINT\\osint4\\checkIpDetails.py",
                "-d",
                 site,      
             ]
@@ -77,7 +77,7 @@ def social(request):
                #"/root/Music/OSINT/osint4/osint_tools_security_auditing/check_social_networks.py",
                # "-a",
                "py",
-               "C:\\Users\\Mridul\\Desktop\\OSINT\\osint4\\osint_tools_security_auditing\\check_social_networks.py",
+               "C:\\Users\\Mridul\\Desktop\\OSINT\\osint4\\check_social_networks.py",
                "-a",
                 site,
             ]
@@ -105,7 +105,7 @@ def builtwith(request):
 				#"/root/Music/OSINT/osint4/osint_tools_security_auditing/BuiltWith.py",
                 #"--domain",
                 "py",
-               "C:\\Users\\Mridul\\Desktop\\OSINT\\osint4\\osint_tools_security_auditing\\BuiltWith.py",
+               "C:\\Users\\Mridul\\Desktop\\OSINT\\osint4\\BuiltWith.py",
                "--domain",
                 site,
             ]
@@ -132,7 +132,7 @@ def virus(request):
 				#"/root/Music/OSINT/osint4/osint_tools_security_auditing/virusTotal.py",
                 #"-d",
                 "py",
-               "C:\\Users\\Mridul\\Desktop\\OSINT\\osint4\\osint_tools_security_auditing\\virusTotal.py",
+               "C:\\Users\\Mridul\\Desktop\\OSINT\\osint4\\virusTotal.py",
                "-d",
                 site,
             ]
@@ -160,7 +160,7 @@ def urlemail(request):
 				#"/root/Music/OSINT/osint4/osint_tools_security_auditing/get_emails_from_url.py",
                 #"-d",
                 "py",
-               "C:\\Users\\Mridul\\Desktop\\OSINT\\osint4\\osint_tools_security_auditing\\get_emails_from_url.py",
+               "C:\\Users\\Mridul\\Desktop\\OSINT\\osint4\\get_emails_from_url.py",
                "-d",
                 site,
             ]
